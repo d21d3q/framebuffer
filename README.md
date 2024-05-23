@@ -1,3 +1,6 @@
+# Foreword
+This repository is fork of [firelizzard18/framebuffer](https://github.com/firelizzard18/framebuffer) with module paths fixed so that it can be used in project. 
+
 # About
 The framebuffer library was created to have an easy way to access the pixels on the screen from the Raspberry Pi.
 It memory-maps the framebuffer device and provides it as a draw.Image (which is itself an image.Image).
@@ -18,7 +21,7 @@ Here is a simple example that clears the whole screen to a dark magenta:
 package main
 
 import (
-	"github.com/gonutz/framebuffer"
+	"github.com/d21d3q/framebuffer"
 	"image"
 	"image/color"
 	"image/draw"
